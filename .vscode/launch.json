@@ -1,0 +1,104 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/dotnet/vscode-csharp/blob/main/debugger-launchjson.md
+            "name": ".NET Core Launch (EF003.DapperAndTransactions)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.DapperAndTransactions",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.DapperAndTransactions/bin/Debug/net9.0/EF003.DapperAndTransactions.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.DapperAndTransactions",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (EF003.ExecuteDelete)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.ExecuteDelete",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.ExecuteDelete/bin/Debug/net9.0/EF003.ExecuteDelete.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.ExecuteDelete",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (EF003.ExecuteInsert)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.ExecuteInsert",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.ExecuteInsert/bin/Debug/net9.0/EF003.ExecuteInsert.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.ExecuteInsert",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (EF003.ExecuteUpdate)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.ExecuteUpdate",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.ExecuteUpdate/bin/Debug/net9.0/EF003.ExecuteUpdate.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.ExecuteUpdate",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (EF003.ExecuteInsertReturnIdentity)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.ExecuteInsertReturnIdentity",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.ExecuteInsertReturnIdentity/bin/Debug/net9.0/EF003.ExecuteInsertReturnIdentity.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.ExecuteInsertReturnIdentity",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (EF003.ExecuteMultipleQueries)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.ExecuteMultipleQueries",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.ExecuteMultipleQueries/bin/Debug/net9.0/EF003.ExecuteMultipleQueries.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.ExecuteMultipleQueries",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Launch (EF003.ExecuteRawSql)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build EF003.ExecuteRawSql",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/EF003.ExecuteRawSql/bin/Debug/net9.0/EF003.ExecuteRawSql.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/EF003.ExecuteRawSql",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "internalConsole",
+            "stopAtEntry": false
+        },
+        {
+            "name": ".NET Core Attach",
+            "type": "coreclr",
+            "request": "attach"
+        }
+    ]
+}

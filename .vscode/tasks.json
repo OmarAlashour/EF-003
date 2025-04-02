@@ -1,0 +1,79 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build EF003.DapperAndTransactions",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.DapperAndTransactions/EF003.DapperAndTransactions.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+        },
+        {
+            "label": "build EF003.ExecuteDelete",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.ExecuteDelete/EF003.ExecuteDelete.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+        },
+        {
+            "label": "build EF003.ExecuteInsert",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.ExecuteInsert/EF003.ExecuteInsert.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+        },
+        {
+            "label": "build EF003.ExecuteInsertReturnIdentity",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.ExecuteInsertReturnIdentity/EF003.ExecuteInsertReturnIdentity.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+        },
+        {
+            "label": "build EF003.ExecuteMultipleQueries",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.ExecuteMultipleQueries/EF003.ExecuteMultipleQueries.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+        },
+        {
+            "label": "build EF003.ExecuteRawSql",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.ExecuteRawSql/EF003.ExecuteRawSql.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "build EF003.ExecuteUpdate",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/EF003.ExecuteUpdate/EF003.ExecuteUpdate.csproj",
+            ],
+            "problemMatcher": "$msCompile",
+        }
+    ]
+}

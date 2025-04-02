@@ -5,7 +5,7 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF003.ExecuteSimpleInsert", "EF003.ExecuteInsert\EF003.ExecuteSimpleInsert.csproj", "{BBFC7B4C-0FBC-47CA-A9FD-29551686824C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteRawSql", "EF03.ExecuteRawSql\EF003.ExecuteRawSql.csproj", "{A60A149B-5C16-4FD1-ABD2-9607C501AFE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteRawSql", "EF003.ExecuteRawSql\EF003.ExecuteRawSql.csproj", "{A60A149B-5C16-4FD1-ABD2-9607C501AFE3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteInsertReturnIdentity", "EF003.ExecuteInsertReturnIdentity\EF003.ExecuteInsertReturnIdentity.csproj", "{D602A806-741A-4D25-9865-0E032BD699FF}"
 EndProject
@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteUpdate", "EF00
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteDelete", "EF003.ExecuteDelete\EF003.ExecuteDelete.csproj", "{24290EC5-C6E5-4528-99B5-AEA9B2AF198F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteMultipleQueries", "EF03.ExecuteMultipleQueries\EF003.ExecuteMultipleQueries.csproj", "{EE90055E-87BD-452A-B6FE-6CDA72598159}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteMultipleQueries", "EF003.ExecuteMultipleQueries\EF003.ExecuteMultipleQueries.csproj", "{EE90055E-87BD-452A-B6FE-6CDA72598159}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.DapperAndTransactions", "EF003.DapperAndTransactions\EF003.DapperAndTransactions.csproj", "{28C1C4B2-4F7C-4B2C-AFC9-AA9CD1549458}"
 EndProject
