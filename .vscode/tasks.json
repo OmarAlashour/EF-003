@@ -10,6 +10,10 @@
                 "${workspaceFolder}/EF003.DapperAndTransactions/EF003.DapperAndTransactions.csproj",
             ],
             "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "build EF003.ExecuteDelete",
@@ -27,7 +31,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/EF003.ExecuteInsert/EF003.ExecuteInsert.csproj",
+                "${workspaceFolder}/EF003.ExecuteInsert/EF003.ExecuteSimpleInsert.csproj",
             ],
             "problemMatcher": "$msCompile",
         },
@@ -60,10 +64,6 @@
                 "${workspaceFolder}/EF003.ExecuteRawSql/EF003.ExecuteRawSql.csproj",
             ],
             "problemMatcher": "$msCompile",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
         },
         {
             "label": "build EF003.ExecuteUpdate",

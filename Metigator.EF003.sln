@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.ExecuteMultipleQuerie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF003.DapperAndTransactions", "EF003.DapperAndTransactions\EF003.DapperAndTransactions.csproj", "{28C1C4B2-4F7C-4B2C-AFC9-AA9CD1549458}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF003.DapperAndTransactionsTest", "EF003.DapperAndTransactionsTest\EF003.DapperAndTransactionsTest.csproj", "{27150A1F-AA79-43C7-8660-2C25283FF9CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{28C1C4B2-4F7C-4B2C-AFC9-AA9CD1549458}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28C1C4B2-4F7C-4B2C-AFC9-AA9CD1549458}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28C1C4B2-4F7C-4B2C-AFC9-AA9CD1549458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27150A1F-AA79-43C7-8660-2C25283FF9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27150A1F-AA79-43C7-8660-2C25283FF9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27150A1F-AA79-43C7-8660-2C25283FF9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27150A1F-AA79-43C7-8660-2C25283FF9CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

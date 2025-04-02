@@ -1,4 +1,5 @@
-﻿public class Wallet
+namespace EF003.DapperAndTransactions.Models;
+public class Wallet
 {
     public int Id { get; set; }
     public string? Holder { get; set; }

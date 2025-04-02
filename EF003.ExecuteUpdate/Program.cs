@@ -10,7 +10,7 @@ var configuration = new ConfigurationBuilder()
 
 IDbConnection db = new SqlConnection(configuration.GetSection("constr").Value);
 
-var walletToUpdate = new Wallet { Id = 9, Holder = "Ammar"
+var walletToUpdate = new Wallet { Id = 5, Holder = "Ammar"
     , Balance = 9000m };
 
 var sql = "UPDATE Wallets SET Holder = @Holder , Balance = @Balance " +
